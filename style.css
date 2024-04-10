@@ -38,58 +38,58 @@
   src: url(https://fonts.gstatic.com/s/architectsdaughter/v18/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg4w.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-.--bold {
+.longdescription .--bold {
   font-weight: 700;
 }
-.--italic {
+.longdescription .--italic {
   font-style: italic;
 }
-.longdescription img {
+.longdescription .longdescription__Imac img {
   display: block;
 }
-.longdescription section.description__content {
+.longdescription .longdescription__Imac section.description__content {
   margin-bottom: 50px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__content {
+  .longdescription .longdescription__Imac section.description__content {
     margin-bottom: 60px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__content {
+  .longdescription .longdescription__Imac section.description__content {
     margin-bottom: 105px;
   }
 }
-.longdescription section.description__content .content__title {
+.longdescription .longdescription__Imac section.description__content .content__title {
   font-weight: 600;
   text-align: center;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__content .content__title {
+  .longdescription .longdescription__Imac section.description__content .content__title {
     font-size: 30px;
     line-height: 45px;
     margin-bottom: 20px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__content .content__title {
+  .longdescription .longdescription__Imac section.description__content .content__title {
     font-size: 36px;
     line-height: 54px;
   }
 }
-.longdescription section.description__content .content__text {
+.longdescription .longdescription__Imac section.description__content .content__text {
   font-weight: 400;
   text-align: center;
   margin: auto;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__content .content__text {
+  .longdescription .longdescription__Imac section.description__content .content__text {
     max-width: 940px;
     font-size: 20px;
     line-height: 30px;
   }
 }
-.longdescription section.description__parameters {
+.longdescription .longdescription__Imac section.description__parameters {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-content: center;
@@ -98,116 +98,117 @@
   margin-bottom: 50px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__parameters {
+  .longdescription .longdescription__Imac section.description__parameters {
     grid-template-columns: repeat(4, 1fr);
     margin-bottom: 60px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__parameters {
+  .longdescription .longdescription__Imac section.description__parameters {
     margin-bottom: 80px;
   }
 }
-.longdescription section.description__parameters .parameter {
+.longdescription .longdescription__Imac section.description__parameters .parameter {
   display: flex;
   align-items: center;
   align-content: center;
   border-left: 1px solid #e5e5e5;
-  padding-left: 30px;
+  padding-left: 10px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__parameters .parameter {
+  .longdescription .longdescription__Imac section.description__parameters .parameter {
     padding-left: initial;
     border-left: initial;
   }
 }
-.longdescription section.description__parameters .parameter .parameter__icon {
+.longdescription .longdescription__Imac section.description__parameters .parameter .parameter__icon {
   margin-right: 20px;
 }
-.longdescription section.description__parameters .parameter .parameter__description {
+.longdescription .longdescription__Imac section.description__parameters .parameter .parameter__description {
   display: flex;
   flex-direction: column;
 }
-.longdescription section.description__parameters .parameter .parameter__description .upperText {
+.longdescription .longdescription__Imac section.description__parameters .parameter .parameter__description .upperText {
   font-weight: 400;
   text-align: left;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__parameters .parameter .parameter__description .upperText {
+  .longdescription .longdescription__Imac section.description__parameters .parameter .parameter__description .upperText {
     font-size: 18px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__parameters .parameter .parameter__description .upperText {
+  .longdescription .longdescription__Imac section.description__parameters .parameter .parameter__description .upperText {
     font-size: 20px;
     line-height: 30px;
   }
 }
-.longdescription section.description__parameters .parameter .parameter__description .--bold {
+.longdescription .longdescription__Imac section.description__parameters .parameter .parameter__description .--bold {
   font-weight: 700;
   text-align: left;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__parameters .parameter .parameter__description .--bold {
+  .longdescription .longdescription__Imac section.description__parameters .parameter .parameter__description .--bold {
     font-size: 18px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__parameters .parameter .parameter__description .--bold {
+  .longdescription .longdescription__Imac section.description__parameters .parameter .parameter__description .--bold {
     font-size: 20px;
     line-height: 30px;
   }
 }
-.longdescription section.description__parameters .parameter + .parameter {
+.longdescription .longdescription__Imac section.description__parameters .parameter + .parameter {
   border-left: 1px solid #e5e5e5;
   padding-left: 10px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__parameters .parameter + .parameter {
+  .longdescription .longdescription__Imac section.description__parameters .parameter + .parameter {
     padding-left: 20px;
     padding-bottom: 15px;
     padding-top: 15px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__parameters .parameter + .parameter {
+  .longdescription .longdescription__Imac section.description__parameters .parameter + .parameter {
     padding-left: 50px;
   }
 }
-.longdescription section.description__section {
+.longdescription .longdescription__Imac section.description__section {
   position: relative;
 }
-.longdescription section.description__section .section__wrapper {
+.longdescription .longdescription__Imac section.description__section .section__wrapper {
   position: relative;
 }
-.longdescription section.description__section .section__wrapper .section__title {
+.longdescription .longdescription__Imac section.description__section .section__wrapper .section__title {
+  font-size: 20px;
   text-align: left;
   font-weight: 600;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section .section__wrapper .section__title {
+  .longdescription .longdescription__Imac section.description__section .section__wrapper .section__title {
     font-size: 32px;
     line-height: 45px;
     margin-bottom: 25px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__section .section__wrapper .section__title {
+  .longdescription .longdescription__Imac section.description__section .section__wrapper .section__title {
     font-size: 36px;
     line-height: 55px;
   }
 }
-.longdescription section.description__section .section__wrapper .section__text {
+.longdescription .longdescription__Imac section.description__section .section__wrapper .section__text {
   font-weight: 400;
   text-align: left;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section .section__wrapper .section__text {
+  .longdescription .longdescription__Imac section.description__section .section__wrapper .section__text {
     font-size: 16px;
     line-height: 26px;
   }
 }
-.longdescription section.description__section .section__wrapper .parameter {
+.longdescription .longdescription__Imac section.description__section .section__wrapper .parameter {
   display: flex;
   align-items: center;
   align-content: center;
@@ -221,203 +222,275 @@
   z-index: 1;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section .section__wrapper .parameter {
+  .longdescription .longdescription__Imac section.description__section .section__wrapper .parameter {
     padding: 15px 20px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__section .section__wrapper .parameter {
+  .longdescription .longdescription__Imac section.description__section .section__wrapper .parameter {
     padding: 20px 25px;
   }
 }
-.longdescription section.description__section .section__wrapper .parameter svg {
-  margin-right: 5px;
+.longdescription .longdescription__Imac section.description__section .section__wrapper .parameter svg {
+  margin-right: 10px;
+  max-width: 30px;
+  max-height: 30px;
 }
-.longdescription section.description__section .section__wrapper .parameter span {
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__section .section__wrapper .parameter svg {
+    margin-right: 5px;
+    max-width: initial;
+    max-height: initial;
+  }
+}
+.longdescription .longdescription__Imac section.description__section .section__wrapper .parameter span {
   font-weight: 400;
   text-align: left;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section .section__wrapper .parameter span {
+  .longdescription .longdescription__Imac section.description__section .section__wrapper .parameter span {
     font-size: 20px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__section .section__wrapper .parameter span {
+  .longdescription .longdescription__Imac section.description__section .section__wrapper .parameter span {
     font-size: 24px;
     line-height: 36px;
   }
 }
-.longdescription section.description__section .section__wrapper .parameter.--up {
+.longdescription .longdescription__Imac section.description__section .section__wrapper .parameter.--up {
   top: 0;
   left: 50px;
 }
-.longdescription section.description__section .section__wrapper .parameter.--down {
+.longdescription .longdescription__Imac section.description__section .section__wrapper .parameter.--down {
   bottom: 0;
   right: 45px;
 }
-.longdescription section.description__section.--first {
+.longdescription .longdescription__Imac section.description__section.--first {
   margin-bottom: 50px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--first {
+  .longdescription .longdescription__Imac section.description__section.--first {
     margin-bottom: 75px;
   }
 }
-.longdescription section.description__section.--first .section__content {
+.longdescription .longdescription__Imac section.description__section.--first .section__content {
   position: absolute;
-  top: 30px;
-  right: 30px;
+  top: 25px;
+  right: 50%;
+  transform: translate(50%);
   z-index: 2;
+  background: #ffffff9e;
+  width: 90%;
+  padding: 13px;
+  border-radius: 16px;
 }
-@media (min-width: 979px) {
-  .longdescription section.description__section.--first .section__content {
+@media (min-width: 757px) {
+  .longdescription .longdescription__Imac section.description__section.--first .section__content {
+    background: initial;
+    padding: initial;
+    transform: initial;
+    width: initial;
     top: 45px;
     right: 90px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__section.--first .section__content {
+  .longdescription .longdescription__Imac section.description__section.--first .section__content {
     top: 65px;
     right: 120px;
   }
 }
-.longdescription section.description__section.--first .section__content .content__bigText {
+.longdescription .longdescription__Imac section.description__section.--first .section__content .content__bigText {
   font-weight: 400;
   text-align: left;
   margin-bottom: 15px;
+  font-size: 15px;
 }
-@media (min-width: 979px) {
-  .longdescription section.description__section.--first .section__content .content__bigText {
+@media (min-width: 525px) {
+  .longdescription .longdescription__Imac section.description__section.--first .section__content .content__bigText {
+    font-size: 20px;
+  }
+}
+@media (min-width: 757px) {
+  .longdescription .longdescription__Imac section.description__section.--first .section__content .content__bigText {
     font-size: 25px;
     line-height: 36px;
     max-width: 366px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__section.--first .section__content .content__bigText {
+  .longdescription .longdescription__Imac section.description__section.--first .section__content .content__bigText {
     font-size: 32px;
     line-height: 50px;
     max-width: 440px;
   }
 }
-@media (min-width: 979px) {
-  .longdescription section.description__section.--first .section__content .content__smallText {
+@media (min-width: 525px) {
+  .longdescription .longdescription__Imac section.description__section.--first .section__content .content__smallText {
+    font-size: 16px;
+  }
+}
+@media (min-width: 757px) {
+  .longdescription .longdescription__Imac section.description__section.--first .section__content .content__smallText {
     max-width: 350px;
     line-height: 24px;
     text-align: left;
   }
 }
-.longdescription section.description__section.--first .sectionSmallText {
+.longdescription .longdescription__Imac section.description__section.--first .sectionSmallText {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 20px;
+  bottom: 60px;
   border: 2px solid #e3e3e3;
-  padding: 15px;
-  font-size: 16px;
+  padding: 7px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
   text-align: center;
   border-radius: 16px;
   background: #FFFFFF;
-  max-width: 200px;
+  max-width: 170px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--first .sectionSmallText {
+  .longdescription .longdescription__Imac section.description__section.--first .sectionSmallText {
+    max-width: 200px;
+    font-size: 16px;
+    line-height: 24px;
     right: 20px;
     bottom: 120px;
     padding: 20px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__section.--first .sectionSmallText {
+  .longdescription .longdescription__Imac section.description__section.--first .sectionSmallText {
     padding: 25px;
     right: 35px;
     bottom: 155px;
   }
 }
-.longdescription section.description__section.--first .keyboard {
-  position: absolute;
-  right: 0;
-  bottom: 0;
+.longdescription .longdescription__Imac section.description__section.--first .keyboard {
+  margin-top: 10px;
+}
+@media (min-width: 757px) {
+  .longdescription .longdescription__Imac section.description__section.--first .keyboard {
+    position: absolute;
+    right: 180px;
+    bottom: 40px;
+    max-width: 230px;
+    margin-top: initial;
+  }
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--first .keyboard {
+  .longdescription .longdescription__Imac section.description__section.--first .keyboard {
     right: 235px;
     bottom: 50px;
+    max-width: initial;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__section.--first .keyboard {
+  .longdescription .longdescription__Imac section.description__section.--first .keyboard {
     right: 245px;
     bottom: 80px;
   }
 }
-.longdescription section.description__section.--first .mouse {
+.longdescription .longdescription__Imac section.description__section.--first .mouse {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 10px;
+  bottom: -10px;
+  max-width: 175px;
+}
+@media (min-width: 757px) {
+  .longdescription .longdescription__Imac section.description__section.--first .mouse {
+    right: 60px;
+    bottom: 30px;
+    max-width: 150px;
+  }
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--first .mouse {
+  .longdescription .longdescription__Imac section.description__section.--first .mouse {
     right: 70px;
     bottom: 25px;
+    max-width: initial;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__section.--first .mouse {
+  .longdescription .longdescription__Imac section.description__section.--first .mouse {
     right: 83px;
     bottom: 65px;
   }
 }
-.longdescription section.description__section.--second {
+.longdescription .longdescription__Imac section.description__section.--second {
   display: grid;
   margin-bottom: 50px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--second {
+  .longdescription .longdescription__Imac section.description__section.--second {
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 120px;
   }
 }
-.longdescription section.description__section.--second .section__wrapper .section__title {
-  max-width: 425px;
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__section.--second .section__wrapper .section__title {
+    max-width: 425px;
+  }
 }
-.longdescription section.description__section.--second .section__wrapper .section__text {
-  max-width: 445px;
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__section.--second .section__wrapper .section__text {
+    max-width: 445px;
+  }
 }
-.longdescription section.description__section.--third {
+.longdescription .longdescription__Imac section.description__section.--third {
   background: #000000;
   color: #FFFFFF;
   border-radius: 10px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
   column-gap: 30px;
   margin-bottom: 50px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--third {
+  .longdescription .longdescription__Imac section.description__section.--third {
+    grid-template-columns: 1fr 1fr;
     padding: 130px 80px;
     margin-bottom: 60px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__section.--third {
+  .longdescription .longdescription__Imac section.description__section.--third {
     margin-bottom: 110px;
   }
 }
-.longdescription section.description__section.--third .section__wrapper .section__subtitle {
+.longdescription .longdescription__Imac section.description__section.--third .section__wrapper.__image img {
+  width: 100%;
+}
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__section.--third .section__wrapper.__image img {
+    width: initial;
+  }
+}
+.longdescription .longdescription__Imac section.description__section.--third .section__wrapper:not(.__image) {
+  padding: 20px;
+}
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__section.--third .section__wrapper:not(.__image) {
+    padding: initial;
+  }
+}
+.longdescription .longdescription__Imac section.description__section.--third .section__wrapper .section__subtitle {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
   margin-top: initial;
 }
-.longdescription section.description__section.--third .section__wrapper .section__text {
-  max-width: 405px;
+.longdescription .longdescription__Imac section.description__section.--third .section__wrapper .section__text {
   margin: 0;
 }
-.longdescription section.description__section.--third .section__wrapper .imageTitle {
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__section.--third .section__wrapper .section__text {
+    max-width: 405px;
+  }
+}
+.longdescription .longdescription__Imac section.description__section.--third .section__wrapper .imageTitle {
   position: absolute;
   margin: 0;
   left: 20px;
@@ -426,84 +499,94 @@
   text-align: left;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--third .section__wrapper .imageTitle {
+  .longdescription .longdescription__Imac section.description__section.--third .section__wrapper .imageTitle {
     font-size: 32px;
     line-height: 50px;
   }
 }
-.longdescription section.description__section.--fourth {
+.longdescription .longdescription__Imac section.description__section.--fourth {
   display: grid;
   margin-bottom: 40px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--fourth {
+  .longdescription .longdescription__Imac section.description__section.--fourth {
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 60px;
     column-gap: 20px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__section.--fourth {
+  .longdescription .longdescription__Imac section.description__section.--fourth {
     margin-bottom: 70px;
   }
 }
-.longdescription section.description__section.--fourth .section__wrapper .section__title {
+.longdescription .longdescription__Imac section.description__section.--fourth .section__wrapper .section__title {
   color: #022c22;
   margin-top: initial;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--fourth .section__wrapper .section__title {
+  .longdescription .longdescription__Imac section.description__section.--fourth .section__wrapper .section__title {
     margin-bottom: 30px;
   }
 }
-.longdescription section.description__section.--fourth .section__wrapper .section__parameters .section__parameter {
+.longdescription .longdescription__Imac section.description__section.--fourth .section__wrapper .section__parameters .section__parameter {
   display: flex;
   align-content: center;
   align-items: center;
 }
-.longdescription section.description__section.--fourth .section__wrapper .section__parameters .section__parameter .icon {
+.longdescription .longdescription__Imac section.description__section.--fourth .section__wrapper .section__parameters .section__parameter .icon {
   margin-right: 55px;
 }
-.longdescription section.description__section.--fourth .section__wrapper .section__parameters .section__parameter .parameter__text {
+.longdescription .longdescription__Imac section.description__section.--fourth .section__wrapper .section__parameters .section__parameter .icon svg {
+  max-width: 55px;
+}
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__section.--fourth .section__wrapper .section__parameters .section__parameter .icon svg {
+    max-width: initial;
+  }
+}
+.longdescription .longdescription__Imac section.description__section.--fourth .section__wrapper .section__parameters .section__parameter .parameter__text {
   display: flex;
   flex-direction: column;
 }
-.longdescription section.description__section.--fourth .section__wrapper .section__parameters .section__parameter .parameter__text .text__up {
+.longdescription .longdescription__Imac section.description__section.--fourth .section__wrapper .section__parameters .section__parameter .parameter__text .text__up {
+  font-size: 14px;
   text-align: left;
   margin-bottom: 5px;
   font-weight: 300;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--fourth .section__wrapper .section__parameters .section__parameter .parameter__text .text__up {
+  .longdescription .longdescription__Imac section.description__section.--fourth .section__wrapper .section__parameters .section__parameter .parameter__text .text__up {
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 15px;
   }
 }
-.longdescription section.description__section.--fourth .section__wrapper .section__parameters .section__parameter .parameter__text .text__down {
+.longdescription .longdescription__Imac section.description__section.--fourth .section__wrapper .section__parameters .section__parameter .parameter__text .text__down {
+  font-size: 18px;
   font-weight: 400;
   text-align: left;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--fourth .section__wrapper .section__parameters .section__parameter .parameter__text .text__down {
+  .longdescription .longdescription__Imac section.description__section.--fourth .section__wrapper .section__parameters .section__parameter .parameter__text .text__down {
     font-size: 32px;
     line-height: 22px;
   }
 }
-.longdescription section.description__section.--fourth .section__wrapper .section__parameters .section__parameter + .section__parameter {
+.longdescription .longdescription__Imac section.description__section.--fourth .section__wrapper .section__parameters .section__parameter + .section__parameter {
   margin-top: 20px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--fourth .section__wrapper .section__parameters .section__parameter + .section__parameter {
+  .longdescription .longdescription__Imac section.description__section.--fourth .section__wrapper .section__parameters .section__parameter + .section__parameter {
     margin-top: 40px;
   }
 }
-.longdescription section.description__section.--fifth {
+.longdescription .longdescription__Imac section.description__section.--fifth {
   display: grid;
   margin-bottom: 40px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--fifth {
+  .longdescription .longdescription__Imac section.description__section.--fifth {
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 60px;
     align-items: center;
@@ -512,28 +595,34 @@
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__section.--fifth {
+  .longdescription .longdescription__Imac section.description__section.--fifth {
     margin-bottom: 110px;
   }
 }
-.longdescription section.description__section.--fifth .section__wrapper.__image {
+.longdescription .longdescription__Imac section.description__section.--fifth .section__wrapper.__image {
   display: flex;
   justify-content: center;
 }
-.longdescription section.description__section.--fifth .section__wrapper .section__title {
+.longdescription .longdescription__Imac section.description__section.--fifth .section__wrapper .section__title {
   color: #022c22;
   margin-top: initial;
-  max-width: 390px;
 }
-.longdescription section.description__section.--fifth .section__wrapper .section__text {
-  max-width: 460px;
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__section.--fifth .section__wrapper .section__title {
+    max-width: 390px;
+  }
 }
-.longdescription section.description__section.--sixth {
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__section.--fifth .section__wrapper .section__text {
+    max-width: 460px;
+  }
+}
+.longdescription .longdescription__Imac section.description__section.--sixth {
   display: grid;
   margin-bottom: 40px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--sixth {
+  .longdescription .longdescription__Imac section.description__section.--sixth {
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 60px;
     align-items: center;
@@ -542,114 +631,150 @@
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__section.--sixth {
+  .longdescription .longdescription__Imac section.description__section.--sixth {
     margin-bottom: 110px;
   }
 }
-.longdescription section.description__section.--sixth .section__wrapper .section__title {
-  max-width: 430px;
+.longdescription .longdescription__Imac section.description__section.--sixth .section__wrapper.__image img {
+  border-radius: 16px;
 }
-.longdescription section.description__section.--sixth .section__wrapper .section__text {
-  max-width: 360px;
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__section.--sixth .section__wrapper.__image img {
+    border-radius: initial;
+  }
 }
-.longdescription section.description__section.--seventh {
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__section.--sixth .section__wrapper .section__title {
+    max-width: 430px;
+  }
+}
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__section.--sixth .section__wrapper .section__text {
+    max-width: 360px;
+  }
+}
+.longdescription .longdescription__Imac section.description__section.--seventh {
   margin-bottom: 40px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--seventh {
+  .longdescription .longdescription__Imac section.description__section.--seventh {
     margin-bottom: 60px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__section.--seventh {
+  .longdescription .longdescription__Imac section.description__section.--seventh {
     margin-bottom: 110px;
   }
 }
-.longdescription section.description__section.--seventh .section__wrapper:not(.__image) {
+.longdescription .longdescription__Imac section.description__section.--seventh .section__wrapper:not(.__image) {
   background: #f4f4f4;
-  padding: 40px;
+  padding: 20px;
   border-radius: 16px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--seventh .section__wrapper:not(.__image) {
+  .longdescription .longdescription__Imac section.description__section.--seventh .section__wrapper:not(.__image) {
     padding: 60px;
     max-width: 750px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__section.--seventh .section__wrapper:not(.__image) {
+  .longdescription .longdescription__Imac section.description__section.--seventh .section__wrapper:not(.__image) {
     padding: 75px 90px;
     max-width: 750px;
   }
 }
-.longdescription section.description__section.--seventh .section__wrapper:not(.__image) .section__icon .icon {
+.longdescription .longdescription__Imac section.description__section.--seventh .section__wrapper:not(.__image) .section__icon .icon {
   width: 50px;
   height: 50px;
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__section.--seventh .section__wrapper:not(.__image) .section__icon .icon {
+  .longdescription .longdescription__Imac section.description__section.--seventh .section__wrapper:not(.__image) .section__icon .icon {
     width: 74px;
     height: 76px;
   }
 }
-.longdescription section.description__section.--seventh .section__wrapper:not(.__image) .section__title {
-  max-width: 455px;
-}
-.longdescription section.description__section.--seventh .section__wrapper:not(.__image) .section__text {
-  max-width: 400px;
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__section.--seventh .section__wrapper:not(.__image) .section__title {
+    max-width: 455px;
+  }
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--seventh .section__wrapper.__image {
+  .longdescription .longdescription__Imac section.description__section.--seventh .section__wrapper:not(.__image) .section__text {
+    max-width: 400px;
+  }
+}
+.longdescription .longdescription__Imac section.description__section.--seventh .section__wrapper.__image {
+  margin-top: 20px;
+}
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__section.--seventh .section__wrapper.__image {
+    margin-top: initial;
+  }
+}
+.longdescription .longdescription__Imac section.description__section.--seventh .section__wrapper.__image img {
+  border-radius: 16px;
+  width: 100%;
+}
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__section.--seventh .section__wrapper.__image img {
+    width: initial;
+    max-width: 450px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     right: 0;
   }
-  .longdescription section.description__section.--seventh .section__wrapper.__image img {
-    border-radius: 16px;
-    max-width: 450px;
-  }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__section.--seventh .section__wrapper.__image img {
+  .longdescription .longdescription__Imac section.description__section.--seventh .section__wrapper.__image img {
     max-width: initial;
   }
 }
-.longdescription section.description__section.--eighth {
+.longdescription .longdescription__Imac section.description__section.--eighth {
   display: grid;
   margin-bottom: 40px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--eighth {
+  .longdescription .longdescription__Imac section.description__section.--eighth {
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 110px;
     column-gap: 60px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__section.--eighth {
+  .longdescription .longdescription__Imac section.description__section.--eighth {
     margin-bottom: 100px;
   }
 }
-.longdescription section.description__section.--eighth .section__wrapper .logo {
+.longdescription .longdescription__Imac section.description__section.--eighth .section__wrapper .logo {
   margin-bottom: 25px;
 }
-.longdescription section.description__section.--eighth .section__wrapper ol {
+.longdescription .longdescription__Imac section.description__section.--eighth .section__wrapper ol {
   margin: 0;
-  max-width: 520px;
+  padding-left: 15px;
 }
-.longdescription section.description__section.--eighth .section__wrapper ol li + li {
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__section.--eighth .section__wrapper ol {
+    padding-left: 40px;
+    max-width: 520px;
+  }
+}
+.longdescription .longdescription__Imac section.description__section.--eighth .section__wrapper ol li + li {
   margin-top: 20px;
 }
-.longdescription section.description__section.--eighth .section__wrapper:not(.__list) {
-  max-width: 375px;
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__section.--eighth .section__wrapper:not(.__list) {
+    max-width: 375px;
+  }
 }
-.longdescription section.description__section.--ninth {
-  display: grid;
+.longdescription .longdescription__Imac section.description__section.--ninth {
+  display: flex;
+  flex-direction: column-reverse;
   margin-bottom: 40px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--ninth {
+  .longdescription .longdescription__Imac section.description__section.--ninth {
+    display: grid;
     grid-template-columns: 1.2fr 1fr;
     margin-bottom: 60px;
     align-items: center;
@@ -657,23 +782,34 @@
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__section.--ninth {
+  .longdescription .longdescription__Imac section.description__section.--ninth {
     margin-bottom: 110px;
     column-gap: 100px;
   }
 }
-.longdescription section.description__section.--ninth .section__wrapper .section__text {
-  max-width: 530px;
+.longdescription .longdescription__Imac section.description__section.--ninth .section__wrapper.__image {
+  display: flex;
+  justify-content: center;
 }
-.longdescription section.description__section.--ninth .section__wrapper .btn {
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__section.--ninth .section__wrapper.__image {
+    justify-content: initial;
+  }
+}
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__section.--ninth .section__wrapper .section__text {
+    max-width: 530px;
+  }
+}
+.longdescription .longdescription__Imac section.description__section.--ninth .section__wrapper .btn {
   margin-top: 30px;
 }
-.longdescription section.description__section.--tenth {
+.longdescription .longdescription__Imac section.description__section.--tenth {
   display: grid;
   margin-bottom: 40px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--tenth {
+  .longdescription .longdescription__Imac section.description__section.--tenth {
     grid-template-columns: 1fr 1.2fr;
     margin-bottom: 60px;
     align-items: center;
@@ -682,38 +818,40 @@
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__section.--tenth {
+  .longdescription .longdescription__Imac section.description__section.--tenth {
     margin-bottom: 160px;
     column-gap: 100px;
   }
 }
-.longdescription section.description__section.--tenth .section__wrapper.__image {
+.longdescription .longdescription__Imac section.description__section.--tenth .section__wrapper.__image {
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
   justify-content: center;
 }
-.longdescription section.description__section.--tenth .section__wrapper.__image .btn {
+.longdescription .longdescription__Imac section.description__section.--tenth .section__wrapper.__image .btn {
   margin-top: 30px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--tenth .section__wrapper.__image .btn {
+  .longdescription .longdescription__Imac section.description__section.--tenth .section__wrapper.__image .btn {
     margin-top: 60px;
   }
 }
-.longdescription section.description__section.--tenth .section__wrapper:not(.__image) {
+.longdescription .longdescription__Imac section.description__section.--tenth .section__wrapper:not(.__image) {
   background: #07b3f1;
   color: #FFFFFF;
   border-radius: 16px;
-  padding: 25px;
+  padding: 20px;
+  margin-top: 30px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--tenth .section__wrapper:not(.__image) {
+  .longdescription .longdescription__Imac section.description__section.--tenth .section__wrapper:not(.__image) {
+    margin-top: initial;
     padding: 40px;
   }
 }
-.longdescription section.description__section.--tenth .section__wrapper:not(.__image) .section__text p {
+.longdescription .longdescription__Imac section.description__section.--tenth .section__wrapper:not(.__image) .section__text p {
   font-family: Figtree, serif;
   font-size: 16px;
   font-weight: 400;
@@ -721,7 +859,7 @@
   letter-spacing: -0.004em;
   text-align: left;
 }
-.longdescription section.description__section.--tenth .section__wrapper:not(.__image) .section__text p.signation {
+.longdescription .longdescription__Imac section.description__section.--tenth .section__wrapper:not(.__image) .section__text p.signation {
   font-family: Sacramento, serif;
   font-size: 40px;
   font-weight: 400;
@@ -730,20 +868,20 @@
   text-align: left;
   margin-top: 25px;
 }
-.longdescription section.description__section.--eleventh {
+.longdescription .longdescription__Imac section.description__section.--eleventh {
   margin-bottom: 40px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--eleventh {
+  .longdescription .longdescription__Imac section.description__section.--eleventh {
     margin-bottom: 60px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__section.--eleventh {
+  .longdescription .longdescription__Imac section.description__section.--eleventh {
     margin-bottom: 160px;
   }
 }
-.longdescription section.description__section.--eleventh:before {
+.longdescription .longdescription__Imac section.description__section.--eleventh:before {
   content: '';
   position: absolute;
   height: 100%;
@@ -751,47 +889,66 @@
   background: linear-gradient(266.68deg, rgba(52, 168, 83, 0) 8.18%, rgba(0, 79, 49, 0.7) 63.5%);
   border-radius: 16px;
 }
-.longdescription section.description__section.--eleventh .mainImage {
+.longdescription .longdescription__Imac section.description__section.--eleventh .mainImage {
   border-radius: 16px;
 }
-.longdescription section.description__section.--eleventh .section__wrapper {
+.longdescription .longdescription__Imac section.description__section.--eleventh .section__wrapper {
   position: absolute;
   color: #FFFFFF;
   z-index: 2;
+  left: 10px;
   top: 50%;
-  left: 50px;
   transform: translateY(-50%);
 }
-@media (min-width: 979px) {
-  .longdescription section.description__section.--eleventh .section__wrapper {
-    left: 100px;
+@media (min-width: 757px) {
+  .longdescription .longdescription__Imac section.description__section.--eleventh .section__wrapper {
+    left: 50px;
   }
 }
-.longdescription section.description__section.--eleventh .section__wrapper .section__title {
-  margin: 0 0 20px 0;
+.longdescription .longdescription__Imac section.description__section.--eleventh .section__wrapper .section__title {
+  margin: 0 0 10px 0;
   font-family: Architects Daughter, serif;
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 400;
-  line-height: 38.94px;
+}
+@media (min-width: 757px) {
+  .longdescription .longdescription__Imac section.description__section.--eleventh .section__wrapper .section__title {
+    font-size: 54px;
+  }
 }
 @media (min-width: 979px) {
-  .longdescription section.description__section.--eleventh .section__wrapper .section__title {
+  .longdescription .longdescription__Imac section.description__section.--eleventh .section__wrapper .section__title {
+    margin: 0 0 20px 0;
     font-size: 64px;
     line-height: 88.94px;
   }
 }
-.longdescription section.description__section.--eleventh .section__wrapper .section__title .green {
+.longdescription .longdescription__Imac section.description__section.--eleventh .section__wrapper .section__title .green {
   color: #17bd8a;
 }
-.longdescription section.description__section.--eleventh .section__wrapper .section__text {
-  font-size: 20px;
+.longdescription .longdescription__Imac section.description__section.--eleventh .section__wrapper .section__text {
+  font-size: 15px;
   font-weight: 400;
-  line-height: 30px;
   text-align: left;
-  max-width: 380px;
+  margin: 0;
+  width: 95%;
 }
-.longdescription section.description__shortContent {
-  padding: 20px;
+@media (min-width: 757px) {
+  .longdescription .longdescription__Imac section.description__section.--eleventh .section__wrapper .section__text {
+    font-size: 18px;
+    max-width: 380px;
+  }
+}
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__section.--eleventh .section__wrapper .section__text {
+    font-size: 20px;
+    line-height: 30px;
+    margin: initial;
+    width: initial;
+  }
+}
+.longdescription .longdescription__Imac section.description__shortContent {
+  padding: 0 20px;
   display: flex;
   align-content: center;
   align-items: center;
@@ -801,91 +958,112 @@
   margin-bottom: 35px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__shortContent {
+  .longdescription .longdescription__Imac section.description__shortContent {
     padding: 35px;
     margin-bottom: 55px;
   }
 }
-.longdescription section.description__shortContent .shortContent__icon {
+.longdescription .longdescription__Imac section.description__shortContent .shortContent__icon {
   margin-right: 35px;
 }
-.longdescription section.description__shortContent .shortContent__text {
+.longdescription .longdescription__Imac section.description__shortContent .shortContent__icon svg {
+  width: 35px;
+}
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__shortContent .shortContent__icon svg {
+    width: initial;
+  }
+}
+.longdescription .longdescription__Imac section.description__shortContent .shortContent__text {
   display: flex;
   flex-direction: column;
   margin: 0;
   text-align: left;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__shortContent .shortContent__text {
+  .longdescription .longdescription__Imac section.description__shortContent .shortContent__text {
     font-size: 18px;
     line-height: 28px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__shortContent .shortContent__text {
+  .longdescription .longdescription__Imac section.description__shortContent .shortContent__text {
     font-size: 24px;
     line-height: 36px;
   }
 }
-.longdescription section.description__benefits {
+.longdescription .longdescription__Imac section.description__benefits {
   display: grid;
   row-gap: 30px;
   margin-bottom: 50px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__benefits {
+  .longdescription .longdescription__Imac section.description__benefits {
     grid-template-columns: 1fr 1fr;
     column-gap: 35px;
     margin-bottom: 60px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__benefits {
+  .longdescription .longdescription__Imac section.description__benefits {
     column-gap: 55px;
     margin-bottom: 90px;
   }
 }
-.longdescription section.description__benefits .benefits__container {
+.longdescription .longdescription__Imac section.description__benefits .benefits__container {
   display: grid;
   row-gap: 35px;
 }
-.longdescription section.description__benefits .benefits__container .benefit {
+.longdescription .longdescription__Imac section.description__benefits .benefits__container .benefit {
   display: flex;
   align-content: center;
   align-items: center;
   background: #f4f4f4;
   border-radius: 10px;
-  padding: 30px;
+  padding: 20px;
 }
-.longdescription section.description__benefits .benefits__container .benefit.--open {
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__benefits .benefits__container .benefit {
+    padding: 30px;
+  }
+}
+.longdescription .longdescription__Imac section.description__benefits .benefits__container .benefit.--open {
   flex-direction: column;
   justify-content: flex-start;
   align-content: flex-start;
   align-items: flex-start;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__benefits .benefits__container .benefit.--open {
+  .longdescription .longdescription__Imac section.description__benefits .benefits__container .benefit.--open {
     padding: 40px;
   }
 }
-.longdescription section.description__benefits .benefits__container .benefit.--open .benefit__title {
+.longdescription .longdescription__Imac section.description__benefits .benefits__container .benefit.--open .benefit__title {
   margin-bottom: 10px;
+  font-size: 18px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__benefits .benefits__container .benefit.--open .benefit__title {
+  .longdescription .longdescription__Imac section.description__benefits .benefits__container .benefit.--open .benefit__title {
+    font-size: initial;
     margin-bottom: 15px;
   }
 }
-.longdescription section.description__benefits .benefits__container .benefit.--open .benefit__subtitle {
+.longdescription .longdescription__Imac section.description__benefits .benefits__container .benefit.--open .benefit__subtitle {
   font-family: Figtree, serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   text-align: left;
   color: #1d1f1e;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
 }
-.longdescription section.description__benefits .benefits__container .benefit.--open .benefit__description {
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__benefits .benefits__container .benefit.--open .benefit__subtitle {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+}
+.longdescription .longdescription__Imac section.description__benefits .benefits__container .benefit.--open .benefit__description {
   font-family: Figtree, serif;
   font-size: 16px;
   font-weight: 400;
@@ -893,79 +1071,96 @@
   text-align: left;
   color: #646a69;
 }
-.longdescription section.description__benefits .benefits__container .benefit .benefit__icon {
+.longdescription .longdescription__Imac section.description__benefits .benefits__container .benefit .benefit__icon {
   margin-right: 15px;
 }
-.longdescription section.description__benefits .benefits__container .benefit .benefit__title {
+.longdescription .longdescription__Imac section.description__benefits .benefits__container .benefit .benefit__icon svg {
+  max-height: 30px;
+  max-width: 30px;
+}
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__benefits .benefits__container .benefit .benefit__icon svg {
+    max-height: initial;
+    max-width: initial;
+  }
+}
+.longdescription .longdescription__Imac section.description__benefits .benefits__container .benefit .benefit__title {
   text-align: left;
   font-weight: 600;
   color: #022c22;
+  font-size: 18px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__benefits .benefits__container .benefit .benefit__title {
+  .longdescription .longdescription__Imac section.description__benefits .benefits__container .benefit .benefit__title {
     font-size: 30px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__benefits .benefits__container .benefit .benefit__title {
+  .longdescription .longdescription__Imac section.description__benefits .benefits__container .benefit .benefit__title {
     font-size: 36px;
     line-height: 60px;
   }
 }
-.longdescription section.description__appleStore {
+.longdescription .longdescription__Imac section.description__appleStore {
   border: 1px solid #e9e9e9;
   border-radius: 16px;
-  padding: 30px;
+  padding: 20px;
   margin-bottom: 40px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__appleStore {
+  .longdescription .longdescription__Imac section.description__appleStore {
     margin-bottom: 60px;
     padding: 50px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__appleStore {
+  .longdescription .longdescription__Imac section.description__appleStore {
     margin-bottom: 100px;
     padding: 80px;
   }
 }
-.longdescription section.description__appleStore .image {
+.longdescription .longdescription__Imac section.description__appleStore .image {
   display: flex;
   justify-content: center;
 }
-.longdescription section.description__appleStore .section__title {
+.longdescription .longdescription__Imac section.description__appleStore .section__title {
   font-weight: 600;
   text-align: center;
+  font-size: 18px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__appleStore .section__title {
+  .longdescription .longdescription__Imac section.description__appleStore .section__title {
     font-size: 36px;
     line-height: 54px;
   }
 }
-.longdescription section.description__appleStore .section__subtitle {
-  font-size: 16px;
+.longdescription .longdescription__Imac section.description__appleStore .section__subtitle {
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: -0.03em;
   text-align: center;
   margin: 0;
 }
-.longdescription section.description__image {
+@media (min-width: 979px) {
+  .longdescription .longdescription__Imac section.description__appleStore .section__subtitle {
+    font-size: 16px;
+  }
+}
+.longdescription .longdescription__Imac section.description__image {
   margin-bottom: 40px;
 }
 @media (min-width: 979px) {
-  .longdescription section.description__image {
+  .longdescription .longdescription__Imac section.description__image {
     margin-bottom: 60px;
   }
 }
 @media (min-width: 1200px) {
-  .longdescription section.description__image {
+  .longdescription .longdescription__Imac section.description__image {
     margin-bottom: 160px;
   }
 }
-.longdescription section.description__image .mainImage {
+.longdescription .longdescription__Imac section.description__image .mainImage {
   border-radius: 16px;
 }
 /*# sourceMappingURL=style.css.map */
